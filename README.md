@@ -1,9 +1,30 @@
 # Backend
-I have been working on this from October'23 and within 2 months. During this journey I learnt a lot of things 
+I have been working on this project from October'23. During this journey I learnt a lot of things which includes 
 * Authentication
 * Authorization
-* JWT
+* [JWT](https://jwt.io/)
 * AccessToken
 * RefreshToken
 * Middlewares
 * Routes
+
+
+## Steps to test this project using Postman Tool.
+Make sure you have postman installed (Thunder client will also work).  
+After cloning this project please add .env file which inculudes.  
+PORT = enter your port number.  
+DATABASE_URL = enter you mongodb url.  
+ACCESS_TOKEN_SECRET = enter_your_secret_access_token.  
+REFRESH_TOKEN_SECRET  =  enter_your_secret_refresh_token.  
+
+Register a user
+```javascript
+{
+    "emailID": "example@domain.com",
+    "password": "examplePassowrd"
+}
+```
+
+
+
+

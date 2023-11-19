@@ -30,7 +30,7 @@ URL : http://localhost:PORT_NUMBER/register
 
 **Authenticate User**
 ```javascript
-URL : http://localhost:3500/auth
+URL : http://localhost:PORT_NUMBER/auth
 {
     "emailID": "example@domain.com",
     "password": "examplePassowrd"

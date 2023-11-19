@@ -12,8 +12,14 @@ I have been working on this project from October'23. During this journey I learn
 
 ## Steps to test this project using Postman Tool.
 
-Make sure you have postman installed (Thunder client will also work).  
-After cloning this project please add .env file which inculudes.  
+Make sure you have postman installed in your system (Thunder client will also work).  
+
+**Run the below command**
+```
+npm init
+```
+
+**Create a .env file which includes.**  
 ```javascript
 PORT = enter your port number.  
 DATABASE_URL = enter your mongodb url.  
